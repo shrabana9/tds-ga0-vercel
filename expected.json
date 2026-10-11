@@ -1,0 +1,1 @@
+{"request":{"regions":["emea","amer"],"threshold_ms":158},"expected":[{"region":"emea","avg_latency":165.93,"p95_latency":226.45,"avg_uptime":98.543,"breaches":6},{"region":"amer","avg_latency":168.92,"p95_latency":224.37,"avg_uptime":98.211,"breaches":6}]}
