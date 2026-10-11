@@ -12,7 +12,7 @@ from pydantic import BaseModel
 TELEMETRY = json.loads((Path(__file__).parent / "telemetry.json").read_text(encoding="utf-8"))
 
 app = FastAPI()
-app.add_middleware(CORSMiddleware, allow_origins=["*"], allow_methods=["*"], allow_headers=["*"])
+app.add_middleware(CORSMiddleware, allow_origins=["*"], allow_methods=["*"], allow_headers=["*"], expose_headers=["*"])
 
 
 class Query(BaseModel):
